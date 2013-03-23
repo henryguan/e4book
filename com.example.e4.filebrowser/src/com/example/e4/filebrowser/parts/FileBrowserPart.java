@@ -21,6 +21,7 @@ import org.osgi.framework.FrameworkUtil;
 
 public class FileBrowserPart {
 	private TreeViewer viewer;
+	private int fCount = 0;
 	
 	@PostConstruct
 	public void createControls(Composite parent) {
